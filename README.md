@@ -9,8 +9,9 @@ To create a Conda environment for this project, run the following command in you
 
 ```bash
 conda create --name mitigate-bias python=3.8.19
-
+```
 To open the environment, run the following command in your terminal:
 
 ```bash
 conda activate mitigate-bias
+```
