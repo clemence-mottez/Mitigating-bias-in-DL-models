@@ -1,1 +1,7 @@
 data/processed_data/processed_data_by_cath/__pycache__/utils.cpython-38.pyc
+data/df_chexpert_plus_240401.csv
+.DS?Store
+__pycache__/*
+final_data/*
+processed_data/*
+Explore_data/*
