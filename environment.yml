@@ -64,6 +64,7 @@ dependencies:
   - mpc=1.1.0=h10f8cd9_1
   - mpfr=4.0.2=hb69a4c5_1
   - mpmath=1.3.0=py38h06a4308_0
+  - nbformat
   - ncurses=6.4=h6a678d5_0
   - nest-asyncio=1.6.0=py38h06a4308_0
   - nettle=3.7.3=hbbd107a_1
@@ -79,6 +80,7 @@ dependencies:
   - pickleshare=0.7.5=pyhd3eb1b0_1003
   - pillow=10.4.0=py38h5eee18b_0
   - pip=24.2=py38h06a4308_0
+  - plotly
   - platformdirs=3.10.0=py38h06a4308_0
   - prompt-toolkit=3.0.43=py38h06a4308_0
   - psutil=5.9.0=py38h5eee18b_0
@@ -98,6 +100,7 @@ dependencies:
   - six=1.16.0=pyhd3eb1b0_1
   - sqlite=3.45.3=h5eee18b_0
   - stack_data=0.2.0=pyhd3eb1b0_0
+  - statsmodels
   - sympy=1.13.2=py38h06a4308_0
   - tbb=2021.8.0=hdb19cb5_0
   - tk=8.6.14=h39e8969_0
