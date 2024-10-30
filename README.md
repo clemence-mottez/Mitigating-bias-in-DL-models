@@ -1,7 +1,9 @@
 # Mitigate Bias Project
 
 ## Overview
-This project aims to address and mitigate bias in deep learning models using CheXpert database.
+This project aims to address and mitigate bias in deep learning models using CheXpert database.  
+It is recommended to run this project with a GPU. 
+
 
 ## Creating a Conda Environment
 
@@ -17,6 +19,8 @@ conda activate mitigate-bias
 ```
 
 ## Preprocess Data
+
+First download the data from the Chexpert official website.  
 
 Perform only once
 
@@ -45,4 +49,17 @@ Perform only once
 "sex": {"Male": 0, "Female": 1},  
 "race": {"White": 0, "Asian": 1, "Black": 2},  
 "insurance_type": {"Medicaid": 0, "Medicare": 1, "Private Insurance": 2}  
+
+## Image data
+Add info on how to download images and resize them
+
+## Extract embeddings with torch x-ray vision
+How to download the weights we used for Chexpert  
+Where to find the models  
+Copy right github  
+
+## Study embeddings  
+
+
+
 
