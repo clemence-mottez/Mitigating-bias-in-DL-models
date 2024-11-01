@@ -4,8 +4,9 @@ Machine learning (ML) and Deep learning (DL) models are transforming healthcare 
 diagnostic accuracy, personalizing treatments, and enhancing patient outcomes. However, a critical concern is the
 potential for these models to exacerbate healthcare disparities, as demonstrated in previous studies. If a model
 performs differently across patient subgroups (e.g., by sex, age, race or health insurance status), it may pose safety risks,
-as it could unfairly disadvantage certain populations. Tackling these challenges is crucial to ensure the fair and safe
-implementation of ML and DL in healthcare.  
+as it could unfairly disadvantage certain populations.  
+Tackling these challenges is crucial to ensure the fair and safe implementation of ML and DL in healthcare.  
+  
 Our motivation is to identify, quantify, and mitigate biases in well-known deep-learning models used for disease predictions from x-ray images. 
 
 
@@ -45,10 +46,10 @@ Then run:
     ```
     This will create a file "final_data/chexpert_plus_240401_cleaned_label.csv"
       
-"sex": {"Male": 0, "Female": 1},  
-"race": {"White": 0, "Asian": 1, "Black": 2},  
-"insurance_type": {"Medicaid": 0, "Medicare": 1, "Private Insurance": 2}  
-  
+    "sex": {"Male": 0, "Female": 1},  
+    "race": {"White": 0, "Asian": 1, "Black": 2},  
+    "insurance_type": {"Medicaid": 0, "Medicare": 1, "Private Insurance": 2}  
+      
   
 3. Create train (60%) / valid (10%) /test split (30%)
     ```bash
