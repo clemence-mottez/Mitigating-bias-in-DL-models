@@ -98,9 +98,11 @@ This will create "data_with_embeddings/chexpert3_test_embeddings.csv", "data_wit
     ```
 
 2. Chexpert embeddings
-  ```bash
+    ```bash
     /model_eval/chexpert_from_embeddings_to_pred.ipynb.py
     ```
+
+
 
 
 
