@@ -74,12 +74,34 @@ Then run:
     /data/image_data_processing/preprocess_image_data.ipynb
     ```
 
-## Extract embeddings with torch x-ray vision
-How to download the weights we used for Chexpert  
-Where to find the models  
-Copy right github  
+## Extract embeddings 
+We are extracting the embeddings using the densenet and chexpert models in the torch x-ray vision github. 
+You need to download a zip file containing the weights to use the chexpert model. 
 
-## Study embeddings  
+1. Densenet embeddings
+    ```bash
+    /model_dev/pre_trained_densenet_GPU_embeddings.py
+    ```
+This will create "data_with_embeddings/densenet_test_embeddings.csv", "data_with_embeddings/densenet_train_embeddings.csv", "data_with_embeddings/densenet_valid_embeddings.csv"
+
+2. Chexpert embeddings
+    ```bash
+    /model_dev/pre_trained_chexpert_GPU_embeddings.py
+    ```
+This will create "data_with_embeddings/chexpert3_test_embeddings.csv", "data_with_embeddings/chexpert3_train_embeddings.csv", "data_with_embeddings/chexpert3_valid_embeddings.csv"
+
+## Disease predictions, model evaluation, bias detection
+
+1. Prediction from Densenet embeddings
+    ```bash
+    /model_eval/densenet_from_embeddings_to_pred.ipynb.py
+    ```
+
+2. Chexpert embeddings
+  ```bash
+    /model_eval/chexpert_from_embeddings_to_pred.ipynb.py
+    ```
+
 
 
 
