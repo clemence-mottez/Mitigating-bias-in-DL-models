@@ -90,16 +90,16 @@ This will create "data_with_embeddings/densenet_test_embeddings.csv", "data_with
     ```
 This will create "data_with_embeddings/chexpert3_test_embeddings.csv", "data_with_embeddings/chexpert3_train_embeddings.csv", "data_with_embeddings/chexpert3_valid_embeddings.csv"
 
-## Disease predictions, model evaluation, bias detection
+## Disease predictions from Densenet embeddings, model evaluation, bias detection
 
-1. Prediction from Densenet embeddings
+1. Prediction using Multiclass Neural Network
     ```bash
-    /model_eval/densenet_from_embeddings_to_pred.ipynb.py
+    /model_eval/densenet_from_embeddings_to_pred_nn.ipynb
     ```
 
-2. Chexpert embeddings
+2. Prediction using Multiclass XGBoost
     ```bash
-    /model_eval/chexpert_from_embeddings_to_pred.ipynb.py
+    /model_eval/densenet_from_embeddings_to_pred_xgboost.ipynb
     ```
 
 
