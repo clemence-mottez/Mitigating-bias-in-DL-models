@@ -55,8 +55,10 @@ model = xrv.models.DenseNet(weights="densenet121-res224-chex")
 model.to(device)
 
 # Load your CSV file
+df = pd.read_csv('../data_processing/final_data/chexpert_plus_240401_test.csv')
 # df = pd.read_csv('../data_processing/final_data/chexpert_plus_240401_train.csv')
-df = pd.read_csv('../data_processing/final_data/chexpert_plus_240401_cleaned_label_sample.csv')
+# df = pd.read_csv('../data_processing/final_data/chexpert_plus_240401_valid.csv')
+# df = pd.read_csv('../data_processing/final_data/chexpert_plus_240401_cleaned_label_sample.csv')
 
 
 start_time = time.time() 
@@ -66,7 +68,7 @@ pred = df['path_to_image'].apply(lambda x: process_x_ray_densenet(x, model))
 df_predictions = pd.DataFrame({'embeddings': pred.apply(lambda x: x.tolist())})
 
 new_df = pd.concat([df.reset_index(drop=True), df_predictions.reset_index(drop=True)], axis=1)
-new_df.to_csv('densenet_data/densenet_sample_embeddings.csv', index=False)
+new_df.to_csv('data_with_embeddings/densenet_sample_embeddings.csv', index=False)
 
 
 elapsed_time = time.time() - start_time  
