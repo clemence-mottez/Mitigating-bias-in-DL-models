@@ -113,8 +113,11 @@ Study differences in distribution for subgroups
     ```bash
     /model_eval/densenet_from_embeddings_to_pred_BalancedRandomForest.ipynb
     ```
-
-
+    
+4. Baseline model
+    ```bash
+    /model_eval/densenet_predicitons_bias_analysis.ipynb
+    ```
 
 
 
