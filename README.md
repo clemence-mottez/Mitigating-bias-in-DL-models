@@ -90,6 +90,13 @@ This will create "data_with_embeddings/densenet_test_embeddings.csv", "data_with
     ```
 This will create "data_with_embeddings/chexpert3_test_embeddings.csv", "data_with_embeddings/chexpert3_train_embeddings.csv", "data_with_embeddings/chexpert3_valid_embeddings.csv"
 
+## Study embeddings
+Study differences in distribution for subgroups
+1. Using PCA and tSNE plots 
+ ```bash
+    /model_embeddings/embeddings_exploration/PCA_exploration_DenseNet_Embeddings.ipynb
+ ```
+
 ## Disease predictions from Densenet embeddings, model evaluation, bias detection
 
 1. Prediction using Multiclass Neural Network
@@ -100,6 +107,11 @@ This will create "data_with_embeddings/chexpert3_test_embeddings.csv", "data_wit
 2. Prediction using Multiclass XGBoost
     ```bash
     /model_eval/densenet_from_embeddings_to_pred_xgboost.ipynb
+    ```
+    
+3. Prediction using Balanced Random Forest
+    ```bash
+    /model_eval/densenet_from_embeddings_to_pred_BalancedRandomForest.ipynb
     ```
 
 
