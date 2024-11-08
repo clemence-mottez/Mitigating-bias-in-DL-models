@@ -100,7 +100,7 @@ Study differences in distribution for subgroups
 2. Two-sample Kolmogorov–Smirnov
    ```bash
     /model_embeddings/embeddings_exploration/statistical_testing.ipynb
- ```
+   ```
 
 ## Disease predictions from Densenet embeddings, model evaluation, bias detection
 
