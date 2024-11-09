@@ -97,9 +97,14 @@ Study differences in distribution for subgroups
     /model_embeddings/embeddings_exploration/PCA_exploration_DenseNet_Embeddings.ipynb
  ```
 
+2. Two-sample Kolmogorov–Smirnov
+   ```bash
+    /model_embeddings/embeddings_exploration/statistical_testing.ipynb
+   ```
+
 ## Disease predictions from Densenet embeddings, model evaluation, bias detection
 
-1. Prediction using Multiclass Neural Network
+1. Prediction using Multiclass Neural Network (small or complex)
     ```bash
     /model_eval/densenet_from_embeddings_to_pred_nn.ipynb
     ```
@@ -119,6 +124,16 @@ Study differences in distribution for subgroups
     /model_eval/densenet_predicitons_bias_analysis.ipynb
     ```
 
+## Mitigation strategies
+1. Resampling overepresented class
+    ```bash
+    /bias_mitigation/bias_mitigation_with_NN_undersample.ipynb
+    ```
+
+1. Resampling underepresented class
+    ```bash
+    /bias_mitigation/bias_mitigation_with_NN_oversampled.ipynb
+    ```
 
 
 
