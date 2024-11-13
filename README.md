@@ -102,6 +102,12 @@ Study differences in distribution for subgroups
     /model_embeddings/embeddings_exploration/statistical_testing.ipynb
    ```
 
+3. Predict subgroups (sex, race, age, health insurance) from embeddings and do some feature importance to know which embedding have information about the subgroups
+   ```bash
+    /model_embeddings/embeddings_exploration/predict_subgroups_from_embeddings.ipynb
+   ```
+
+
 ## Disease predictions from Densenet embeddings, model evaluation, bias detection
 
 1. Prediction using small Multiclass Neural Network=
@@ -130,14 +136,20 @@ Study differences in distribution for subgroups
     ```
 
 ## Mitigation strategies
-1. Resampling overepresented class
+1. Resampling the classes doing data augmentation
     ```bash
-    /bias_mitigation/bias_mitigation_with_NN_undersample.ipynb
+    /bias_mitigation/bias_mitigation_NN_data_augmentation.ipynb
+    /bias_mitigation/bias_mitigation_xgb_data_augmentation.ipynb
     ```
 
-1. Resampling underepresented class
+2. Removing embeddings that contain information about the subgroups (sex, race, age, health insurance) 
     ```bash
-    /bias_mitigation/bias_mitigation_with_NN_oversampled.ipynb
+    /bias_mitigation/bias_mitigation_NN_remove_embeddings.ipynb
+    /bias_mitigation/bias_mitigation_xgb_remove_embeddings.ipynb
+    ```
+3. Subgroup specific models to predict the diseases
+    ```bash
+    /bias_mitigation/bias_mitigation_xgb_subgroup_specific_models.ipynb
     ```
 
 
