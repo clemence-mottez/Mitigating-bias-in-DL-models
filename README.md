@@ -104,22 +104,27 @@ Study differences in distribution for subgroups
 
 ## Disease predictions from Densenet embeddings, model evaluation, bias detection
 
-1. Prediction using Multiclass Neural Network (small or complex)
+1. Prediction using small Multiclass Neural Network=
     ```bash
-    /model_eval/densenet_from_embeddings_to_pred_nn.ipynb
+    /model_eval/densenet_from_embeddings_to_pred_nn_small.ipynb
     ```
 
-2. Prediction using Multiclass XGBoost
+2. Prediction using complex Multiclass Neural Network
+    ```bash
+    /model_eval/densenet_from_embeddings_to_pred_nn_big.ipynb
+    ```
+
+3. Prediction using Multiclass XGBoost
     ```bash
     /model_eval/densenet_from_embeddings_to_pred_xgboost.ipynb
     ```
     
-3. Prediction using Balanced Random Forest
+4. Prediction using Balanced Random Forest
     ```bash
     /model_eval/densenet_from_embeddings_to_pred_BalancedRandomForest.ipynb
     ```
     
-4. Baseline model
+5. Baseline model
     ```bash
     /model_eval/densenet_predicitons_bias_analysis.ipynb
     ```
