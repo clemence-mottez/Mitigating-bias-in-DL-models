@@ -7,7 +7,7 @@ performs differently across patient subgroups (e.g., by sex, age, race or health
 as it could unfairly disadvantage certain populations.  
 Tackling these challenges is crucial to ensure the fair and safe implementation of ML and DL in healthcare.  
   
-Our motivation is to identify, quantify, and mitigate biases in well-known deep-learning models used for disease predictions from x-ray images. 
+Our motivation is to detect, quantify, and mitigate biases in well-known deep-learning models used for disease predictions from x-ray images. 
 
 
 # How to run the project
