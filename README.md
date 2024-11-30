@@ -11,7 +11,7 @@ Our motivation is to detect, quantify, and mitigate biases in well-known deep-le
 
 # How to run the project
 
-It is needed to run this project with a good GPU. 
+You need to have a good GPU to run this project.
 
 ## Creating a Conda Environment
 
@@ -74,20 +74,13 @@ Then run:
     ```
 
 ## Extract embeddings 
-We are extracting the embeddings using the densenet and chexpert models in the torch x-ray vision github. 
-You need to download a zip file containing the weights to use the chexpert model. 
+We are extracting the embeddings using the densenet model in the torch x-ray vision github. 
 
 1. Densenet embeddings
     ```bash
     /model_dev/pre_trained_densenet_GPU_embeddings.py
     ```
 This will create "data_with_embeddings/densenet_test_embeddings.csv", "data_with_embeddings/densenet_train_embeddings.csv", "data_with_embeddings/densenet_valid_embeddings.csv"
-
-2. Chexpert embeddings
-    ```bash
-    /model_dev/pre_trained_chexpert_GPU_embeddings.py
-    ```
-This will create "data_with_embeddings/chexpert3_test_embeddings.csv", "data_with_embeddings/chexpert3_train_embeddings.csv", "data_with_embeddings/chexpert3_valid_embeddings.csv"
 
 ## Study embeddings
 Study differences in distribution for subgroups
@@ -135,7 +128,7 @@ Study differences in distribution for subgroups
     ```
 
 ## Mitigation strategies
-1. Resampling the classes doing data augmentation
+1. Rebalancing the subgroups
     ```bash
     /bias_mitigation/bias_mitigation_NN_data_augmentation.ipynb
     /bias_mitigation/bias_mitigation_xgb_data_augmentation.ipynb
@@ -150,6 +143,7 @@ Study differences in distribution for subgroups
     ```bash
     /bias_mitigation/bias_mitigation_xgb_subgroup_specific_models.ipynb
     ```
+
 
 
 
