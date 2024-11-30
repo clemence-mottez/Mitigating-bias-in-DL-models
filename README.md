@@ -1,5 +1,4 @@
-# INVESTIGATING AND MITIGATING BIAS IN DEEP LEARNING MODELS FOR CLINICAL APPLICATIONS
-
+# Mitigating Bias in Deep Learning Models for Chest X-Ray Analysis
 Machine learning (ML) and Deep learning (DL) models are transforming healthcare by improving
 diagnostic accuracy, personalizing treatments, and enhancing patient outcomes.   
 However, a critical concern is the potential for these models to exacerbate healthcare disparities, as demonstrated in previous studies. If a model
