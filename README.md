@@ -127,7 +127,7 @@ Study differences in distribution for subgroups
     /model_eval/densenet_predicitons_bias_analysis.ipynb
     ```
 
-## Mitigation strategies
+## Bias mitigation strategies
 1. Rebalancing the subgroups
     ```bash
     /bias_mitigation/bias_mitigation_NN_data_augmentation.ipynb
