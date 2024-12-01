@@ -144,6 +144,17 @@ Study differences in distribution for subgroups
     /bias_mitigation/bias_mitigation_xgb_subgroup_specific_models.ipynb
     ```
 
+4. Adversarial attacks to penalize the model for identifying one of the four sensitive attributes
+    ```bash
+    /bias_mitigation/bias_mitigation_nn_autoencoder_adversarial_attacks.ipynb
+    /bias_mitigation/bias_mitigation_xgb_adversarial_attacks.ipynb
+    ```
+    
+5. Combining working bias mitigation techniques
+   ```bash
+    /bias_mitigation/bias_mitigation_nn_autoencoder_adversarial_attacks_rebalancing_removing_emb.ipynb
+    /bias_mitigation/bias_mitigation_xgb_adversarial_attacks_rebalancing.ipynb
+    ```
 
 
 
