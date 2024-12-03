@@ -156,6 +156,18 @@ Study differences in distribution for subgroups
     /bias_mitigation/bias_mitigation_xgb_adversarial_attacks_rebalancing.ipynb
     ```
 
+## Model Interpretability
+1. SHAP interpretability
+   ```bash
+    /model_interpretability/xgboost_interpretability_shap.ipynb
+    /model_interpretability/NN_model_interpretability_shap.ipynb
+    /model_interpretability/NN_model_interpretability_autoencoder_xgboost_Shap.ipynb
+    ```
 
+2. Feature Importance function from XGBoost
+    ```bash
+    /model_interpretability/NN_model_interpretability_autoencoder_xgboost_Feature Importance.ipynb
+    /model_interpretability/xgboost_interpretability_Feature Importance.ipynb
+    ```
 
 
